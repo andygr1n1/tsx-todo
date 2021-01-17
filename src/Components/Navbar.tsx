@@ -74,7 +74,6 @@ export const Navbar: React.FC = () => {
     }, [])
 
     const toggleMenu = () => {
-        console.log('click')
         setHiddenToggler(!hiddenToggler);
         hiddenToggler ? setHidden("visible") : setHidden('hidden');
     }

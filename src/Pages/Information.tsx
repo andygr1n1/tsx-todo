@@ -39,7 +39,6 @@ export const Information: React.FC = () => {
                 <a className="btn" href="https://reactjs.org/" target="_blank" rel="noreferrer" >React official page</a>
                 <a className="btn" href="https://styled-components.com/" target="_blank" rel="noreferrer" >Styled Components</a>
                 <button className="btn purple darken-4" onClick={() => history.push("/")}>To-do app</button>
-
             </Resources>
         </>
     )
